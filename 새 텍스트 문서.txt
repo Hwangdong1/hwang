@@ -1,0 +1,2 @@
+span은 display:flex 안됨
+박스가 아니라 그런건가

@@ -1,0 +1,18 @@
+.screen-header__icon svg{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.screen-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 25%;
+    padding: 25px;
+    background-color: lightgray;
+}
+.screen-header__title{
+    font-size: 32px;
+    font-weight: 800;
+}
