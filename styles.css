@@ -6,12 +6,20 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
-@import "components/user-components.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+
 
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/find.css";
+
+
 body{
     font-family: 'Open Sans', sans-serif;
     height: 1000vh;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
