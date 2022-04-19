@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>find</title>
+    <title>More</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,10 +24,13 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Find</h1>
+        <h1 class="screen-header__title">More</h1>
         <div class="screen-header__icon">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
               </svg>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -36,53 +39,44 @@
         </div>
     </header>
 
-    <main class="main-screen">
+    <main class="main-screen more-screen">
+        <div class="user-components">
+            <div class="user-components__column">
+                <img src="#" class="user-components__avatar user-components__avatar--xl">
+                <div class="user-components__text">
+                    <h4 class="user-components__title">Hwang Dong</h4>
+                  <h6 class="user-components__subtitle">010-6340-0553</h6>
+                </div>
+            </div>
+            <div class="user-components__column">
+                <i class="far fa-comment fa-2x"></i></a>
+            </div>
+        </div>
         <div class="icon-row">
             <div class="icon-row__icon">
-                <i class="fas fa-qrcode"></i>
-                <span>QR Code</span>
+                <i class="far fa-calendar"></i>
+                <span>Calendar</span>
             </div>
             <div class="icon-row__icon">
                 <i class="far fa-address-book"></i>
-                <span>ADD by Contacts</span>
+                <span>Talk Drive</span>
             </div>
             <div class="icon-row__icon">
-                <i class="fas fa-fingerprint"></i>
-                <span>Add by ID</span>
+                <i class="fas fa-qrcode"></i>
+                <span>방역패스</span>
             </div>
             <div class="icon-row__icon">
-                <i class="far fa-envelope"></i>
-                <span>invite</span>
+                <i class="fas fa-receipt"></i>
+                <span>Account</span>
             </div>
         </div>
-        <div class="recommended-friends">
-            <h6 class="recommended-friends__title">Recomended Friends</h6>
-            <span>YOU Have no recommended friends</span>
-        </div>
-        <div class="open-chat">
-            <div class="open-chat__header">
-                <h4>Open Chat</h4>
-                <span>Go to Openchat HOME <i class="fas fa-chevron-up fa-xs"></i> </span>
-            </div>
-            <div class="open-post">
-                <div class="open-post__culumn">
-                    <h5 class="open-post__title">#BTS</h5>
-                    <h6 class="open-post__hashtags">#bts#army#군대가라</h6>
-                    <div class="open-post__members">
-                        <img src="#">
-                        <span class="open-post__count">802 members</span>
-                        <div class="divider"></div>
-                        <span class="open-post__member-status">Active</span>
-                    </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <i class="fas fa-quote-right"></i>
                 </div>
-                <div class="open-post__culumn">
-                    <div class="open-post__photo">
-                        <img src="#">
-                        <div class="open-post__heart-count">
-                            <i class="fas fa-heart fa-xs"></i><span>326</span>
-                    </div>
-                    </div>
-                </div>
+                <span>Kakao Story</span>
             </div>
         </div>
     </main>

@@ -1,2 +1,4 @@
 span은 display:flex 안됨
 박스가 아니라 그런건가
+
+position:absolute는 반드시 position:relative인 부모가 꼭 필요하다  
